@@ -1,0 +1,8 @@
+
+/**
+ * 由 Fantastic-mobile 提供技术支持
+ * Powered by Fantastic-mobile
+ * https://fantastic-mobile.hurui.me/
+ */
+    
+import{d as _,M as h,z as i,N as x,r as b,m as d,k as y,o as z,F as V,b as c,D as m,u as n,i as I,w as M}from"./index-U1W1hkh6.js";function v(a,o){const u={};for(let t=0;t<o.length;t++){const s=o[t];Object.hasOwn(a,s)&&(u[s]=a[s])}return u}const D=_({name:"VanFieldPicker",__name:"index",props:h({label:{},name:{},id:{},type:{},size:{},placeholder:{},border:{},colon:{},required:{},center:{},arrowDirection:{},labelClass:{},labelWidth:{},labelAlign:{},autosize:{},leftIcon:{},rightIcon:{},rules:{},round:{type:Boolean},columns:{}},{modelValue:{},modelModifiers:{}}),emits:["update:modelValue"],setup(a){const o=a,u=i(()=>v(o,["label","name","id","type","size","placeholder","border","colon","required","center","arrowDirection","labelClass","labelWidth","labelAlign","autosize","leftIcon","rightIcon","rules"])),t=i(()=>v(o,["round"])),s=i(()=>v(o,["columns"])),p=x(a,"modelValue"),k=b([p.value]),w=i(()=>o.columns?.find(f=>f.value===p.value)?.text),l=b(!1);return(f,e)=>{const g=d("van-field"),C=d("van-picker"),P=d("van-popup");return z(),y(V,null,[c(g,m({"model-value":n(w)},n(u),{"is-link":"",readonly:"",onClick:e[0]||(e[0]=r=>l.value=!0)}),null,16,["model-value"]),c(P,m({show:n(l),"onUpdate:show":e[3]||(e[3]=r=>I(l)?l.value=r:null)},n(t),{position:"bottom",teleport:"body"}),{default:M(()=>[c(C,m({"model-value":n(k)},n(s),{onConfirm:e[1]||(e[1]=({selectedOptions:r})=>{p.value=r[0]?.value,l.value=!1}),onCancel:e[2]||(e[2]=r=>l.value=!1)}),null,16,["model-value"])]),_:1},16,["show"])],64)}}});export{D as _,v as p};

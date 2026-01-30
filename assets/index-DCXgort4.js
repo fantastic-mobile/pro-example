@@ -1,0 +1,8 @@
+
+/**
+ * 由 Fantastic-mobile 提供技术支持
+ * Powered by Fantastic-mobile
+ * https://fantastic-mobile.hurui.me/
+ */
+    
+import{b as r,_}from"./index-TGLGxjLi.js";import{_ as s}from"./index.vue_vue_type_script_setup_true_lang-CuFXODrP.js";import{s as l,o as t,k as d,b as n,w as a,e as f,d as u,c as v,u as p}from"./index-DSCegQmK.js";import"./index.vue_vue_type_script_setup_true_lang-Sn60HHzg.js";const F={},g={class:"flex gap-8"};function B(o,c){const i=f,e=r;return t(),d("div",g,[n(e,{value:!0},{default:a(()=>[n(i,{name:"i-ri:notification-3-line"})]),_:1}),n(e,{value:99},{default:a(()=>[n(i,{name:"i-ri:notification-3-line"})]),_:1}),n(e,{value:"噢"},{default:a(()=>[n(i,{name:"i-ri:notification-3-line"})]),_:1}),n(e,{value:"9",variant:"secondary"},{default:a(()=>[n(i,{name:"i-ri:notification-3-line"})]),_:1}),n(e,{value:"9",variant:"destructive"},{default:a(()=>[n(i,{name:"i-ri:notification-3-line"})]),_:1})])}const x=l(F,[["render",B]]),I='<template>\n  <div class="flex gap-8">\n    <FmBadge :value="true">\n      <FmIcon name="i-ri:notification-3-line" />\n    </FmBadge>\n    <FmBadge :value="99">\n      <FmIcon name="i-ri:notification-3-line" />\n    </FmBadge>\n    <FmBadge value="噢">\n      <FmIcon name="i-ri:notification-3-line" />\n    </FmBadge>\n    <FmBadge value="9" variant="secondary">\n      <FmIcon name="i-ri:notification-3-line" />\n    </FmBadge>\n    <FmBadge value="9" variant="destructive">\n      <FmIcon name="i-ri:notification-3-line" />\n    </FmBadge>\n  </div>\n</template>\n',$=u({__name:"index",setup(o){return(c,i)=>{const e=s,m=_;return t(),v(m,{navbar:"","navbar-start-side":"back"},{default:a(()=>[n(e,{code:p(I)},{default:a(()=>[n(x)]),_:1},8,["code"])]),_:1})}}});export{$ as default};

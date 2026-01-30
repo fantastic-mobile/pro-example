@@ -1,0 +1,8 @@
+
+/**
+ * 由 Fantastic-mobile 提供技术支持
+ * Powered by Fantastic-mobile
+ * https://fantastic-mobile.hurui.me/
+ */
+    
+import{_ as b}from"./index-TGLGxjLi.js";import{d as y,l as k,ai as w,S as x,m as M,o as j,c as z,w as e,a,b as t,f as l,t as m,u as c,_ as C,r as S,bl as B,bm as f,bk as L}from"./index-DSCegQmK.js";import{_ as V}from"./index.vue_vue_type_script_setup_true_lang-Sn60HHzg.js";const $={class:"flex justify-center gap-4"},F={class:"mt-4 text-center"},P=y({__name:"i18n",setup(N){const{t:u}=k(),_=w(),r=S("");x(()=>_.lang,()=>{r.value=L().format("MMMM-dddd")},{immediate:!0});function i(n){const s=B();s&&(n==="zh-cn"?(Object.assign(s["zh-cn"],{hello:{world:"你好，世界！"}}),f.global.setLocaleMessage(n,s["zh-cn"])):(Object.assign(s["en-us"],{hello:{world:"Hello World !"}}),f.global.setLocaleMessage(n,s["en-us"])))}return(n,s)=>{const p=M("van-calendar"),o=V,d=C,g=b;return j(),z(g,{navbar:"","navbar-start-side":"back","navbar-end-side":"i18n"},{default:e(()=>[s[4]||(s[4]=a("div",{class:"m-4 c-gray"}," Vant 组件国际化 ",-1)),t(o,{class:"my-0"},{default:e(()=>[t(p,{poppable:!1,"show-confirm":!1,style:{height:"500px"}})]),_:1}),s[5]||(s[5]=a("div",{class:"m-4 c-gray"}," Dayjs ",-1)),t(o,{class:"my-0"},{default:e(()=>[l(m(c(r)),1)]),_:1}),s[6]||(s[6]=a("div",{class:"m-4 c-gray"}," 延迟加载 ",-1)),t(o,{class:"my-0"},{default:e(()=>[a("div",$,[t(d,{onClick:s[0]||(s[0]=v=>i("zh-cn"))},{default:e(()=>[...s[2]||(s[2]=[l(" 载入中文 ",-1)])]),_:1}),t(d,{onClick:s[1]||(s[1]=v=>i("en-us"))},{default:e(()=>[...s[3]||(s[3]=[l(" 载入英文 ",-1)])]),_:1})]),a("div",F,m(c(u)("hello.world")),1)]),_:1})]),_:1})}}});export{P as default};

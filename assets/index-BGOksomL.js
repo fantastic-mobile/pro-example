@@ -1,0 +1,8 @@
+
+/**
+ * 由 Fantastic-mobile 提供技术支持
+ * Powered by Fantastic-mobile
+ * https://fantastic-mobile.hurui.me/
+ */
+    
+import{_ as d}from"./index-TGLGxjLi.js";import{_ as u}from"./index.vue_vue_type_script_setup_true_lang-CuFXODrP.js";import{d as o,o as m,c as r,b8 as f,i as v,u as p,w as t,a as s,r as b,b as l}from"./index-DSCegQmK.js";import"./index.vue_vue_type_script_setup_true_lang-Sn60HHzg.js";const x=o({__name:"_demo1",setup(c){const a=b(1);return(i,e)=>{const n=f;return m(),r(n,{modelValue:p(a),"onUpdate:modelValue":e[0]||(e[0]=_=>v(a)?a.value=_:null),list:[{label:"标签1",value:1},{label:"标签2",value:2},{label:"标签3",value:3}]},{1:t(()=>[...e[1]||(e[1]=[s("div",{class:"flex-center"}," 标签1 ",-1)])]),2:t(()=>[...e[2]||(e[2]=[s("div",{class:"flex-center"}," 标签2 ",-1)])]),3:t(()=>[...e[3]||(e[3]=[s("div",{class:"flex-center"}," 标签3 ",-1)])]),_:1},8,["modelValue"])}}}),F='<script setup lang="ts">\nconst tabs = ref(1)\n<\/script>\n\n<template>\n  <FmTabs v-model="tabs" :list="[{ label: \'标签1\', value: 1 }, { label: \'标签2\', value: 2 }, { label: \'标签3\', value: 3 }]">\n    <template #1>\n      <div class="flex-center">\n        标签1\n      </div>\n    </template>\n    <template #2>\n      <div class="flex-center">\n        标签2\n      </div>\n    </template>\n    <template #3>\n      <div class="flex-center">\n        标签3\n      </div>\n    </template>\n  </FmTabs>\n</template>\n',B=o({__name:"index",setup(c){return(a,i)=>{const e=u,n=d;return m(),r(n,{navbar:"","navbar-start-side":"back"},{default:t(()=>[l(e,{code:p(F)},{default:t(()=>[l(x)]),_:1},8,["code"])]),_:1})}}});export{B as default};

@@ -1,0 +1,8 @@
+
+/**
+ * 由 Fantastic-mobile 提供技术支持
+ * Powered by Fantastic-mobile
+ * https://fantastic-mobile.hurui.me/
+ */
+    
+import{d as b,a_ as h,r as y,o,k as i,q as s,u as t,L as n,A as c,f as g,t as v,p as f,a as x,c as C,_ as k,w as B,b as w,e as S,a1 as z}from"./index-D5iw2mOA.js";const V=b({name:"FmPageMain",__name:"index",props:{title:{default:""},collaspe:{type:Boolean,default:!1},height:{default:""},class:{type:[Boolean,null,String,Object,Array]},titleClass:{type:[Boolean,null,String,Object,Array]},mainClass:{type:[Boolean,null,String,Object,Array]}},setup(e){const l=e,d=h(),a=y(l.collaspe);function u(){a.value=!a.value}return(r,A)=>{const m=S,p=k;return o(),i("div",{class:s(t(n)("m-4 flex flex-col border rounded-lg bg-card transition-[background-color,border-color]",{"overflow-hidden":e.collaspe},l.class))},[d.title||e.title?(o(),i("div",{key:0,class:s(t(n)("border-b px-5 py-4 transition-border-color",l.titleClass))},[c(r.$slots,"title",{},()=>[g(v(e.title),1)])],2)):f("",!0),x("div",{class:s(t(n)("relative h-[calc-size(auto,size)] p-5 transition-height after:pointer-events-none after:absolute after:bottom-0 after:left-0 after:z-1 after:h-12 after:max-h-full after:w-full after:from-transparent after:to-[hsl(var(--card))] after:bg-gradient-to-b after:opacity-0 after:transition-opacity after:content-empty",{"overflow-hidden":e.collaspe,"after:opacity-100":t(a)},l.mainClass)),style:z({height:t(a)?e.height:""})},[c(r.$slots,"default"),e.collaspe?(o(),C(p,{key:0,variant:"link",size:"icon",class:s(["absolute inset-b-0 inset-s-1/2 transition-all -translate-x-1/2",{"rotate-x-180":!t(a)}]),onClick:u},{default:B(()=>[w(m,{name:"i-ep:arrow-down",class:"text-xl"})]),_:1},8,["class"])):f("",!0)],6)],2)}}});export{V as _};

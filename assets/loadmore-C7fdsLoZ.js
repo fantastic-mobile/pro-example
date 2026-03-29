@@ -1,0 +1,8 @@
+
+/**
+ * 由 Fantastic-mobile 提供技术支持
+ * Powered by Fantastic-mobile
+ * https://fantastic-mobile.hurui.me/
+ */
+    
+import{$ as e,Ct as t,H as n,P as r,W as i,f as a,kt as o,mt as s,rt as c,v as l,w as u,x as d,y as f,z as p}from"./vue.runtime.esm-bundler-DMY3hWtO.js";import{i as m}from"./auth-DzbQrscs.js";import{t as h}from"./AppPageLayout-S1V78StU.js";var g={class:`m-4 flex flex-col gap-4`},_={class:`text-stone-4 after:bg-stone-2 before:bg-stone-2 dark-text-stone-6 after:dark-bg-stone-6 before:dark-bg-stone-6 text-sm font-500 flex gap-4 whitespace-nowrap items-center justify-between after:h-[1px] after:w-full before:h-[1px] before:w-full after:content-empty before:content-empty`},v=u({__name:`loadmore`,setup(u){let v=e(`layoutRef`),y=s(0),b=s(10),x=s(0),S=s([]);function C(){m.get(`page/loadmore`,{fake:!0,params:{from:y.value*b.value,limit:b.value}}).then(e=>{S.value.push(...e.data.list),y.value+=1,x.value=e.data.total,r(()=>{(v.value?.ref?.clientHeight??0)===(v.value?.ref?.scrollHeight??0)&&S.value.length<x.value&&C()})})}function w(){S.value.length<x.value&&C()}return p(()=>{C()}),(e,r)=>{let s=h;return n(),f(s,{ref_key:`layoutRef`,ref:v,navbar:``,"navbar-start-side":`back`,onReachBottom:w},{default:c(()=>[l(`div`,g,[(n(!0),d(a,null,i(t(S),(e,t)=>(n(),d(`div`,{key:t,class:`p-4 bg-[var(--g-container-bg)]`},o(e),1))),128)),l(`div`,_,o(t(S).length<t(x)?`加载更多`:`已经到底啦`),1)])]),_:1},512)}}});export{v as default};

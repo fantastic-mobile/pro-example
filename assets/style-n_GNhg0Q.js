@@ -1,0 +1,8 @@
+
+/**
+ * 由 Fantastic-mobile 提供技术支持
+ * Powered by Fantastic-mobile
+ * https://fantastic-mobile.hurui.me/
+ */
+    
+import{C as e,Ct as t,H as n,S as r,W as i,et as a,f as o,kt as s,lt as c,mt as l,rt as u,v as d,w as f,x as p,y as m}from"./vue.runtime.esm-bundler-DMY3hWtO.js";import{R as h,c as g}from"./components-CBpXWGFQ.js";import{a as _}from"./vue-router-CYJdlJAt.js";import{t as v}from"./AppPageLayout-S1V78StU.js";var y={class:`p-4 flex flex-col gap-4`},b={class:`flex gap-2`},x={class:`flex gap-2`},S={class:`flex gap-2`},C=f({__name:`style`,setup(f){let C=_(),w=l(!1),T=l(!1),E=l(!1);return a(T,e=>{e&&(E.value=!1)}),a(E,e=>{e&&(T.value=!1)}),(a,l)=>{let f=g,_=h,D=v;return n(),m(D,{navbar:!1,tabbar:``,"tabbar-border":t(w),"tabbar-radius":t(T),"tabbar-mask":t(E)},{default:u(()=>[d(`div`,y,[d(`div`,b,[l[4]||(l[4]=d(`p`,null,`边框`,-1)),e(f,{modelValue:t(w),"onUpdate:modelValue":l[0]||(l[0]=e=>c(w)?w.value=e:null)},null,8,[`modelValue`])]),d(`div`,x,[l[5]||(l[5]=d(`p`,null,`圆角`,-1)),e(f,{modelValue:t(T),"onUpdate:modelValue":l[1]||(l[1]=e=>c(T)?T.value=e:null)},null,8,[`modelValue`])]),d(`div`,S,[l[6]||(l[6]=d(`p`,null,`渐变遮罩`,-1)),e(f,{modelValue:t(E),"onUpdate:modelValue":l[2]||(l[2]=e=>c(E)?E.value=e:null)},null,8,[`modelValue`])]),e(_,{onClick:l[3]||(l[3]=e=>t(C).back())},{default:u(()=>[...l[7]||(l[7]=[r(` 返回 `,-1)])]),_:1}),(n(),p(o,null,i(50,e=>d(`div`,{key:e,class:`text-center`},s(e),1)),64))])]),_:1},8,[`tabbar-border`,`tabbar-radius`,`tabbar-mask`])}}});export{C as default};

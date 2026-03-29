@@ -1,0 +1,8 @@
+
+/**
+ * 由 Fantastic-mobile 提供技术支持
+ * Powered by Fantastic-mobile
+ * https://fantastic-mobile.hurui.me/
+ */
+    
+.category-list[data-v-38e37574]{position:absolute;top:0;bottom:0;left:0}.category-list .active-item[data-v-38e37574]:before,.category-list .active-item[data-v-38e37574]:after{content:"";width:min(5.333vw,32px);height:min(5.333vw,32px);box-shadow:0 0 0 min(5.333vw, 32px) oklch(var(--background));border-radius:100%;transition:box-shadow .3s;position:absolute;right:0}.category-list .active-item[data-v-38e37574]:before{clip-path:inset(50% max(-2.667vw,-16px) 0 50%);top:max(-5.333vw,-32px)}.category-list .active-item[data-v-38e37574]:after{clip-path:inset(0 max(-2.667vw,-16px) 50% 50%);bottom:max(-5.333vw,-32px)}.product-list[data-v-38e37574]{position:absolute;top:0;bottom:0;left:0;right:0}

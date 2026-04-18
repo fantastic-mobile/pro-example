@@ -1,0 +1,8 @@
+
+/**
+ * 由 Fantastic-mobile 提供技术支持
+ * Powered by Fantastic-mobile
+ * https://fantastic-mobile.hurui.me
+ */
+  
+import{C as e,Ct as t,H as n,Ot as r,S as i,W as a,et as o,f as s,lt as c,mt as l,rt as u,v as d,w as f,x as p,y as m}from"./vue.runtime.esm-bundler-BBr2zMyZ.js";import{B as h,u as g}from"./components-DK30L-iF.js";import{a as _}from"./vue-router-DULnEBjf.js";import{t as v}from"./AppPageLayout-BwSv5Viu.js";var y={class:`p-4 flex flex-col gap-4`},b={class:`flex gap-2`},x={class:`flex gap-2`},S={class:`flex gap-2`},C=f({__name:`style`,setup(f){let C=_(),w=l(!1),T=l(!1),E=l(!1);return o(T,e=>{e&&(E.value=!1)}),o(E,e=>{e&&(T.value=!1)}),(o,l)=>{let f=g,_=h,D=v;return n(),m(D,{navbar:``,"navbar-border":t(w),"navbar-radius":t(T),"navbar-mask":t(E)},{default:u(()=>[d(`div`,y,[d(`div`,b,[l[4]||(l[4]=d(`p`,null,`边框`,-1)),e(f,{modelValue:t(w),"onUpdate:modelValue":l[0]||(l[0]=e=>c(w)?w.value=e:null)},null,8,[`modelValue`])]),d(`div`,x,[l[5]||(l[5]=d(`p`,null,`圆角`,-1)),e(f,{modelValue:t(T),"onUpdate:modelValue":l[1]||(l[1]=e=>c(T)?T.value=e:null)},null,8,[`modelValue`])]),d(`div`,S,[l[6]||(l[6]=d(`p`,null,`渐变遮罩`,-1)),e(f,{modelValue:t(E),"onUpdate:modelValue":l[2]||(l[2]=e=>c(E)?E.value=e:null)},null,8,[`modelValue`])]),l[8]||(l[8]=d(`p`,null,[i(`由于圆角使用了 `),d(`code`,null,`overflow-hidden`),i(` 属性，会影响渐变遮罩效果，故两者不建议同时使用。`)],-1)),e(_,{onClick:l[3]||(l[3]=e=>t(C).back())},{default:u(()=>[...l[7]||(l[7]=[i(` 返回 `,-1)])]),_:1}),(n(),p(s,null,a(50,e=>d(`div`,{key:e,class:`text-center`},r(e),1)),64))])]),_:1},8,[`navbar-border`,`navbar-radius`,`navbar-mask`])}}});export{C as default};

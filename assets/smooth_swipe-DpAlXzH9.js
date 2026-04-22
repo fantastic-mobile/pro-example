@@ -1,0 +1,33 @@
+
+/**
+ * 由 Fantastic-mobile 提供技术支持
+ * Powered by Fantastic-mobile
+ * https://fantastic-mobile.hurui.me
+ */
+  
+import{C as e,Ct as t,H as n,Ot as r,S as i,W as a,f as o,mt as s,rt as c,v as l,w as u,x as d,y as f}from"./vue.runtime.esm-bundler-BBr2zMyZ.js";import{B as p,H as m,I as h,m as g}from"./components-DK30L-iF.js";import{t as _}from"./AppPageLayout-BwSv5Viu.js";var v=u({__name:`_demo1`,setup(u){let f=s(0);return(s,u)=>{let h=p,_=m,v=g;return n(),d(o,null,[e(_,null,{default:c(()=>[(n(),d(o,null,a(4,n=>e(h,{key:n,variant:t(f)===n-1?`default`:`outline`,onClick:e=>f.value=n-1},{default:c(()=>[i(r(n),1)]),_:2},1032,[`variant`,`onClick`])),64))]),_:1}),e(v,{"active-index":t(f)},{default:c(()=>[...u[0]||(u[0]=[l(`div`,{class:`text-20 flex-center h-50`},` 1 `,-1),l(`div`,{class:`text-20 flex-center h-75`},` 2 `,-1),l(`div`,{class:`text-20 flex-center h-100`},` 3 `,-1),l(`div`,{class:`text-20 flex-center h-25`},` 4 `,-1)])]),_:1},8,[`active-index`])],64)}}}),y=`<script setup lang="ts">
+const activeIndex = ref<number>(0)
+<\/script>
+
+<template>
+  <FmButtonGroup>
+    <FmButton v-for="index in 4" :key="index" :variant="activeIndex === index - 1 ? 'default' : 'outline'" @click="activeIndex = index - 1">
+      {{ index }}
+    </FmButton>
+  </FmButtonGroup>
+  <FmSmoothSwipe :active-index>
+    <div class="text-20 flex-center h-50">
+      1
+    </div>
+    <div class="text-20 flex-center h-75">
+      2
+    </div>
+    <div class="text-20 flex-center h-100">
+      3
+    </div>
+    <div class="text-20 flex-center h-25">
+      4
+    </div>
+  </FmSmoothSwipe>
+</template>
+`,b=u({__name:`index`,setup(r){return(r,i)=>{let a=h,o=_;return n(),f(o,{navbar:``,"navbar-start-side":`back`},{default:c(()=>[e(a,{code:t(y)},{default:c(()=>[e(v)]),_:1},8,[`code`])]),_:1})}}});export{b as default};

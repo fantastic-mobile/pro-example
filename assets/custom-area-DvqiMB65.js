@@ -1,0 +1,8 @@
+
+/**
+ * 由 Fantastic-mobile 提供技术支持
+ * Powered by Fantastic-mobile
+ * https://fantastic-mobile.hurui.me
+ */
+  
+import{C as e,Ct as t,H as n,S as r,c as i,it as a,lt as o,mt as s,rt as c,v as l,w as u,y as d}from"./vue.runtime.esm-bundler-BBr2zMyZ.js";import{B as f,V as p,u as m}from"./components-DK30L-iF.js";import"./dist-BGHx7AU_.js";import{a as h}from"./vue-router-DULnEBjf.js";import{t as g}from"./AppPageLayout-BwSv5Viu.js";var _={class:`flex-center flex-1`},v={class:`flex-center flex-1`},y={class:`flex-center flex-1`},b={class:`p-4 flex flex-col gap-4`},x=u({__name:`custom-area`,setup(u){let x=h(),S=s(!1);return(s,u)=>{let h=p,C=m,w=f,T=g;return n(),d(T,{navbar:!1,tabbar:``,"tabbar-border":!1,"tabbar-class":`bg-[oklch(var(--background))]/80 backdrop-blur-sm`},{tabbar:c(()=>[l(`div`,_,[e(h,{name:`https://fantastic-admin.hurui.me/logo.svg`,class:`text-8`})]),a(l(`div`,v,[e(h,{name:`https://fantastic-mobile.hurui.me/logo.png`,class:`text-8`})],512),[[i,t(S)]]),l(`div`,y,[e(h,{name:`https://one-step-admin.hurui.me/logo.png`,class:`text-8`})])]),default:c(()=>[l(`div`,b,[u[3]||(u[3]=l(`div`,null,`可以根据业务逻辑做更精细化的处理，比如动态切换显示内容。`,-1)),l(`div`,null,[e(C,{modelValue:t(S),"onUpdate:modelValue":u[0]||(u[0]=e=>o(S)?S.value=e:null)},null,8,[`modelValue`])]),e(w,{onClick:u[1]||(u[1]=e=>t(x).back())},{default:c(()=>[...u[2]||(u[2]=[r(` 返回 `,-1)])]),_:1}),u[4]||(u[4]=l(`img`,{src:`https://picsum.photos/200/300`},null,-1))])]),_:1})}}});export{x as default};

@@ -1,0 +1,8 @@
+
+/**
+ * 由 Fantastic-mobile 提供技术支持
+ * Powered by Fantastic-mobile
+ * https://fantastic-mobile.hurui.me
+ */
+  
+import{C as e,Ct as t,H as n,K as r,M as i,N as a,Z as o,_ as s,f as c,lt as l,mt as u,rt as d,w as f,x as p}from"./vue.runtime.esm-bundler-BBr2zMyZ.js";function m(e,t){let n={};for(let r=0;r<t.length;r++){let i=t[r];Object.hasOwn(e,i)&&(n[i]=e[i])}return n}var h=f({name:`VanFieldPicker`,__name:`index`,props:i({label:{},name:{},id:{},type:{},size:{},placeholder:{},border:{},colon:{},required:{},center:{},arrowDirection:{},labelClass:{},labelWidth:{},labelAlign:{},autosize:{},leftIcon:{},rightIcon:{},rules:{},round:{type:Boolean},columns:{}},{modelValue:{},modelModifiers:{}}),emits:[`update:modelValue`],setup(i){let f=i,h=s(()=>m(f,[`label`,`name`,`id`,`type`,`size`,`placeholder`,`border`,`colon`,`required`,`center`,`arrowDirection`,`labelClass`,`labelWidth`,`labelAlign`,`autosize`,`leftIcon`,`rightIcon`,`rules`])),g=s(()=>m(f,[`round`])),_=s(()=>m(f,[`columns`])),v=o(i,`modelValue`),y=u([v.value]),b=s(()=>f.columns?.find(e=>e.value===v.value)?.text),x=u(!1);return(i,o)=>{let s=r(`van-field`),u=r(`van-picker`),f=r(`van-popup`);return n(),p(c,null,[e(s,a({"model-value":t(b)},t(h),{"is-link":``,readonly:``,onClick:o[0]||(o[0]=e=>x.value=!0)}),null,16,[`model-value`]),e(f,a({show:t(x),"onUpdate:show":o[3]||(o[3]=e=>l(x)?x.value=e:null)},t(g),{position:`bottom`,teleport:`body`}),{default:d(()=>[e(u,a({"model-value":t(y)},t(_),{onConfirm:o[1]||(o[1]=({selectedOptions:e})=>{v.value=e[0]?.value,x.value=!1}),onCancel:o[2]||(o[2]=e=>x.value=!1)}),null,16,[`model-value`])]),_:1},16,[`show`])],64)}}});export{m as n,h as t};

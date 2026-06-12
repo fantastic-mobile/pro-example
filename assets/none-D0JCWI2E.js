@@ -1,0 +1,8 @@
+
+/**
+ * 由 Fantastic-mobile 提供技术支持
+ * Powered by Fantastic-mobile
+ * https://fantastic-mobile.hurui.me
+ */
+  
+import{C as e,Ct as t,H as n,S as r,rt as i,v as a,w as o,y as s}from"./vue.runtime.esm-bundler-DOMO_wpA.js";import{K as c}from"./src-C_SUC8up.js";import{l}from"./index-CG3z7NNQ.js";import{t as u}from"./AppPageLayout-CilNLEuS.js";var d={class:`p-4 flex flex-col gap-4`},f=o({__name:`none`,setup(o){let f=l();return(o,l)=>{let p=c,m=u;return n(),s(m,{navbar:!1},{default:i(()=>[a(`div`,d,[e(p,{onClick:l[0]||(l[0]=e=>t(f).back())},{default:i(()=>[...l[1]||(l[1]=[r(` 返回 `,-1)])]),_:1})])]),_:1})}}});export{f as default};

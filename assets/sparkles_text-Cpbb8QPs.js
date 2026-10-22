@@ -1,0 +1,17 @@
+
+/**
+ * 由 Fantastic-mobile 提供技术支持
+ * Powered by Fantastic-mobile
+ * https://fantastic-mobile.hurui.me
+ */
+  
+import{dt as e,m as t,ut as n}from"./src-CTlveZFi.js";import{D as r,E as i,On as a,Zn as o,_ as s,b as c,bt as l,ct as u,er as d,ft as f,k as p,mt as m,nr as h,o as g,qt as _,v,vn as y}from"./runtime-core.esm-bundler-D7siT_TS.js";import{t as b}from"./motion-Du6Fr-Ah.js";import{t as x}from"./AppPageLayout-DpGpaj5G.js";var S={class:`inline-block relative`},C=[`fill`],w=p({name:`BuiltInSparklesText`,__name:`index`,props:{text:{},sparklesCount:{default:10},colors:{default:()=>({first:`#9E7AFF`,second:`#FE8BBB`})},class:{type:[Boolean,null,String,Object,Array]}},setup(t){let n=t,r=y([]);function p(){let e=`${Math.random()*100}%`,t=`${Math.random()*100}%`,r=Math.random()>.5?n.colors.first:n.colors.second,i=Math.random()*2,a=Math.random()*1+.3,o=Math.random()*10+5;return{id:`${e}-${t}-${Date.now()}`,x:e,y:t,color:r,delay:i,scale:a,lifespan:o}}function x(){r.value=Array.from({length:n.sparklesCount},p)}function w(){r.value=r.value.map(e=>e.lifespan<=0?p():{...e,lifespan:e.lifespan-.1})}let T;return u(()=>{x(),T=window.setInterval(w,100)}),f(()=>{T&&clearInterval(T)}),(u,f)=>(m(),c(`div`,{class:o(a(e)(`text-6xl font-bold`,n.class))},[s(`span`,S,[(m(!0),c(g,null,l(r.value,e=>(m(),v(a(b),{key:e.id,initial:{opacity:0,scale:0,rotate:75},animate:{opacity:[0,1,0],scale:[0,e.scale,0],rotate:[75,120,150]},transition:{duration:.8,repeat:1/0,delay:e.delay},as:`svg`,class:`pointer-events-none absolute z-20`,style:d({left:e.x,top:e.y,opacity:0}),width:`21`,height:`21`,viewBox:`0 0 21 21`},{default:_(()=>[s(`path`,{d:`M9.82531 0.843845C10.0553 0.215178 10.9446 0.215178 11.1746 0.843845L11.8618 2.72026C12.4006 4.19229 12.3916 6.39157 13.5 7.5C14.6084 8.60843 16.8077 8.59935 18.2797 9.13822L20.1561 9.82534C20.7858 10.0553 20.7858 10.9447 20.1561 11.1747L18.2797 11.8618C16.8077 12.4007 14.6084 12.3916 13.5 13.5C12.3916 14.6084 12.4006 16.8077 11.8618 18.2798L11.1746 20.1562C10.9446 20.7858 10.0553 20.7858 9.82531 20.1562L9.13819 18.2798C8.59932 16.8077 8.60843 14.6084 7.5 13.5C6.39157 12.3916 4.19225 12.4007 2.72023 11.8618L0.843814 11.1747C0.215148 10.9447 0.215148 10.0553 0.843814 9.82534L2.72023 9.13822C4.19225 8.59935 6.39157 8.60843 7.5 7.5C8.60843 6.39157 8.59932 4.19229 9.13819 2.72026L9.82531 0.843845Z`,fill:e.color},null,8,C)]),_:2},1032,[`animate`,`transition`,`style`]))),128)),i(` `+h(t.text),1)])],2))}}),T={};function E(e,t){let n=w;return m(),v(n,{text:`Fantastic-mobile`,class:`text-2xl`})}var D=n(T,[[`render`,E]]),O=`<template>
+  <FmSparklesText text="Fantastic-mobile" class="text-2xl" />
+</template>
+`,k={};function A(e,t){let n=w;return m(),v(n,{text:`Fantastic-mobile`,"sparkles-count":50,class:`text-2xl`})}var j=n(k,[[`render`,A]]),M=`<template>
+  <FmSparklesText text="Fantastic-mobile" :sparkles-count="50" class="text-2xl" />
+</template>
+`,N={};function P(e,t){let n=w;return m(),v(n,{text:`Fantastic-mobile`,colors:{first:`#FF6B6B`,second:`#4ECDC4`},class:`text-2xl`})}var F=n(N,[[`render`,P]]),I=`<template>
+  <FmSparklesText text="Fantastic-mobile" :colors="{ first: '#FF6B6B', second: '#4ECDC4' }" class="text-2xl" />
+</template>
+`,L=p({__name:`index`,setup(e){return(e,n)=>{let i=t,o=x;return m(),v(o,{navbar:``,"navbar-start-side":`back`},{default:_(()=>[s(`div`,null,[r(i,{code:a(O)},{default:_(()=>[r(D)]),_:1},8,[`code`]),r(i,{title:`数量`,code:a(M)},{default:_(()=>[r(j)]),_:1},8,[`code`]),r(i,{title:`颜色`,code:a(I)},{default:_(()=>[r(F)]),_:1},8,[`code`])])]),_:1})}}});export{L as default};
